@@ -1,0 +1,6 @@
+<ul>
+  <% @arcs.each do |id, arckys| %>
+    <li><%= arckys[:name] %> (<%= arckys[:email] %>)
+      - <%= arckys[:type] %> </li>
+  <% end %>
+</ul>
