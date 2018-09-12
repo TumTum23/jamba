@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'searcher/solicit'
+
+  get 'searcher/email'
+
+  get 'searcher/number'
+
   get 'about', to: 'pages#about', as: :about
 
   get 'contact', to: 'pages#contact', as: :contact

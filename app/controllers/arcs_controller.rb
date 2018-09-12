@@ -7,13 +7,14 @@ class ArcsController < ApplicationController
       4 => { id: 4, name: "Maria", email: "maria@example4.com", type: "Interior Designer" },
       5 => { id: 5, name: "Juan", email: "juan@example5.com", type: "Industrial Architect" },
       6 => { id: 6, name: "Rosario", email: "rosario@example6.com", type: "Urban Designer" },
-      7 => { id: 7, name: "bob", email: "bob@example7.com", type: "Landscape Architect" },
-
-
+      7 => { id: 7, name: "bob", email: "bob@example7.com", type: "Landscape Architect" }
   }
 
 
   def index
     @arcs = ARCS
+    @category = params[:typeOfArc]
+    # @restaurants = RESTAURANTS.select { |id, r| r[:category] == @category }
+
   end
 end
