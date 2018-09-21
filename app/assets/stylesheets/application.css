@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+
+  .navCol {
+  background-color: #FFA33F;
+ }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+.welcBox {
+  display: flex;
+  justify-content: center;
+}
+
+.citSel {
+  display: flex;
+  justify-content: center;
+}
+.citySelect {
+  display: flex;
+  height: 60vh;
+  width: 90vw;
+  justify-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.madBox {
+  height: 100%;
+  width: 45%;
+  background-color: #FFCBF2;
+}
+
+.barcBox {
+  height: 100%;
+  width: 45%;
+  background-color: #A3EAFF;
+}
+
