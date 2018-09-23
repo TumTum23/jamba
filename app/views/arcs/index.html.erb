@@ -1,6 +1,19 @@
 
 <h3>Current architects in Barcelona</h3>
 
+<div class="container">
+  <div class="row">
+  <%= @arcs.each do |id, arckys| %>
+
+    <div class="col-xs-9 col-sm-6 col-md-3"><%= arckys[:name] %></div>
+
+
+   <% end %>
+   </div>
+</div>
+
+
+
 <ul>
   <% @arcs.each do |id, arckys| %>
     <div> <%= arckys[:name] %>
