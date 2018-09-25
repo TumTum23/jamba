@@ -13,15 +13,28 @@
  *= require_tree .
  *= require_self
  */
+ @import "card";
 
+* {
+  border: 1px solid red;
+}
+
+
+* {
+  font-family: 'Crimson Text', serif;
+  }
 
   .navCol {
-  background-color: #000;
+  background-color: #386FA4;
  }
 
   .nav {
     display: flex;
     flex-direction: row;
+  }
+
+  .navbar {
+    color: black;
   }
 
 .welcBox {
@@ -41,6 +54,7 @@
   justify-content: space-between;
   flex-direction: row;
 }
+
 
 .madBox {
   height: 100%;

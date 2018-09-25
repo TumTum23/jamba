@@ -1,25 +1,32 @@
 
-<h3>Current architects in Barcelona</h3>
+<h3>Current Architects in Barcelona</h3>
 
 <div class="container">
   <div class="row">
-  <%= @arcs.each do |id, arckys| %>
+  <% @arcs.each do |id, arckys| %>
 
-    <div class="col-xs-9 col-sm-6 col-md-3"><%= arckys[:name] %></div>
+    <div class="col-xs-9 col-sm-6 col-md-4">
+      <div class="card">
+
+        <div class="card-name">  <%= arckys[:name] %></div>
+        <div class="card-type"> <%= arckys[:type] %></div>
+
+        <div class="ratNbut">
+
+        <div class="card-rating"><%= arckys[:rating] %></div>
 
 
-   <% end %>
+        <div class="btnCard">
+        <button type="button" class="btn btnCard">Book Me</button>
+        </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+  <% end %>
    </div>
 </div>
-
-
-
-<ul>
-  <% @arcs.each do |id, arckys| %>
-    <div> <%= arckys[:name] %>
-
-    </div>
-    <li><%= arckys[:name] %>
-      - <%= arckys[:type] %> </li>
-  <% end %>
-</ul>
