@@ -5,8 +5,11 @@
 
 // get rid of when use properly
 
-h1, h3 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+
+.logoJAMBA {
+  h1, h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }

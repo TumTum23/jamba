@@ -14,10 +14,21 @@ class ArcsController < ApplicationController
   }
 
 
+  def show
+    @arcs = ARCS
+  end
+
+  def new
+  end
+
+
+
   def index
     @arcs = ARCS
-    @category = params[:typeOfArc]
-    # @restaurants = RESTAURANTS.select { |id, r| r[:category] == @category }
 
   end
+
+  def edit
+  end
+
 end

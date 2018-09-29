@@ -4,13 +4,16 @@
     flex-direction: row;
     margin-top: 20px;
     background-color: #59A5D8;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid #386FA4;
   }
 
   .arcLeft {
     height: 100%;
     width: 40%;
   }
+
+
 
   .arcPhoto {
     height: 55%;
@@ -99,7 +102,7 @@
     width: 60%;
     background-color: #386FA4;
     display: flex;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 8px;
     border-bottom-right-radius: 10px;
   }
 
@@ -110,4 +113,67 @@
     align-self: flex-end;
     border-radius: 2px;
     border-bottom-right-radius: 10px;
+    padding: 40px;
   }
+
+  .bioTitle {
+    text-align: left;
+  }
+  .bioConts {
+
+  }
+
+
+  .revNothers {
+    height: 70vh;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .arcRev {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #59A5D8;
+    border-radius: 10px;
+    border: 2px solid #386FA4;
+  }
+
+  .revTitle {
+    height: 20%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .revContent {
+    height: 80%;
+  }
+
+  .revRevs {
+    height:20%;
+    background-color: #84D2F6;
+    border: 3px solid #386FA4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 3px;
+  }
+
+  .arcOthers {
+    height: 100%;
+    width: 40%;
+    background-color: #84D2F6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #386FA4;
+  }
+
+  .othersTitle {
+    height: 20%;
+    text-align: center;
+    padding: 15px;
+  }
+
