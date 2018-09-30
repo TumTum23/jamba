@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20180929195956) do
     t.text "reviews"
     t.boolean "verified"
     t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "updated_at", null:
   end
 
   create_table "bookings", force: :cascade do |t|

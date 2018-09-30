@@ -9,8 +9,6 @@ class ArcsController < ApplicationController
       6 => { id: 6, name: "Rosario Ruiz", email: "rosario@example6.com", type: "Urban Designer", rating: "★★★" },
       7 => { id: 7, name: "Bob Bill", email: "bob@example7.com", type: "Landscape Architect", rating: "★★★" },
       8 => { id: 8, name: "Fred Fredder", email: "bob@example7.com", type: "Interior Designer", rating: "★★" },
-      9 => { id: 9, name: "Susana Suiz", email: "bob@example7.com", type: "Residential Architect", rating: "★★★★" },
-
   }
 
 
