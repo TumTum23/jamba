@@ -15,6 +15,7 @@
  */
  @import "card";
  @import "nav";
+ @import "new";
 
 
   .navCol {

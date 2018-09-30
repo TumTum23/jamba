@@ -17,6 +17,7 @@ class ArcsController < ApplicationController
   end
 
   def new
+    @arc = Arc.new
   end
 
 

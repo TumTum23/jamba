@@ -1,0 +1,17 @@
+<div class="newArc">
+  <div class="arcForm">
+      <h2>All Architects Welcome</h2>
+
+      <ul>
+
+       <%= form_for(@arc) do |f| %>
+           <li> <%= f.text_field :first_name,  placeholder: "First name" %></li> <br />
+           <li> <%= f.text_field :last_name, placeholder: "Last name"  %></li> <br />
+            <li><%= f.text_field :email, placeholder: "Email"  %></li> <br />
+           <li> <%= f.text_field :number, placeholder: "Number"  %></li> <br />
+           <li> <%= f.submit %></li>
+      <% end %>
+
+      </ul>
+  </div>
+</div>

@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'arcs/show'
 
+  get 'arcs/new'
+
   get 'about', to: 'pages#about', as: :about
 
   get 'contact', to: 'pages#contact', as: :contact
