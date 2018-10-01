@@ -30,4 +30,11 @@ class ArcsController < ApplicationController
   def edit
   end
 
+  def create
+    @arc = Arc.new(arc_params)
+    @arc.user = current_user
+    if @arc.save
+  end
+
+end
 end
