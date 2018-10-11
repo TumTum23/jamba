@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    background-color: #59A5D8;
+    background-color: #14A78C;
     border-radius: 10px;
-    border: 2px solid #386FA4;
+    border: 2px solid #14A78C;
   }
 
   .arcLeft {
@@ -18,7 +18,7 @@
   .arcPhoto {
     height: 55%;
     width: 100%;
-    background-color: #59A5D8;
+    background-color: #14A78C;
     border-top-left-radius: 10px;
     display: flex;
     align-items: center;
@@ -37,7 +37,8 @@
    width: 100%;
    font-size: 2em;
    text-align: center;
-   background-color: #84D2F6;
+   color: #FFE400;
+   background-color: #14A76C;
    border-radius: 1px;
    border-top-left-radius: 6px;
    border-top-right-radius: 6px;
@@ -47,7 +48,7 @@
   .arcDeats {
     height: 32%;
     width: 100%;
-    background-color: #59A5D8;
+    background-color: #14A76C;
     display: flex;
     flex-direction: row;
     border-bottom-left-radius: 10px;
@@ -63,7 +64,8 @@
     width: 100%;
     text-align: center;
     font-size: 1.5em;
-    background-color: #386FA4;
+    color: #FFE400;
+    background-color: #14A78C;
     border-bottom-left-radius: 6px;
   }
 
@@ -78,7 +80,6 @@
   .arcDeatsRears {
     text-align: center;
     font-size: 1.5em;
-    background-color: #386FA4;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
   }
@@ -93,14 +94,15 @@
     height: 30%;
     text-align: center;
     font-size: 1.5em;
-    background-color: #386FA4;
+    color: #FFE400;
+    background-color: #14A78C;
   }
 
 
   .arcInfo {
     height: 100%;
     width: 60%;
-    background-color: #386FA4;
+    background-color: #14A78C;
     display: flex;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 10px;
@@ -109,7 +111,7 @@
   .arcBio {
     height: 80%;
     width: 100%;
-    background-color: #59A5D8;
+    background-color: #14A78C;
     align-self: flex-end;
     border-radius: 2px;
     border-bottom-right-radius: 10px;
@@ -118,8 +120,10 @@
 
   .bioTitle {
     text-align: left;
+    color: #FFE400;
   }
   .bioConts {
+    color: #FFE400;
 
   }
 
@@ -136,9 +140,10 @@
     width: 60%;
     display: flex;
     flex-direction: column;
-    background-color: #59A5D8;
+    color: #FFE400;
+    background-color: #14A78C;
     border-radius: 10px;
-    border: 2px solid #386FA4;
+    border: 2px solid #14A78C;
   }
 
   .revTitle {
@@ -153,8 +158,9 @@
 
   .revRevs {
     height:20%;
-    background-color: #84D2F6;
-    border: 3px solid #386FA4;
+    color: #14A78C;
+    background-color: #FFE400;
+    border: 3px solid #14A76C;
     border-radius: 5px;
     text-align: center;
     padding: 20px;
@@ -164,11 +170,12 @@
   .arcOthers {
     height: 100%;
     width: 40%;
-    background-color: #84D2F6;
+    color: #FFE400;
+    background-color: #14A76C;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    border: 2px solid #386FA4;
+    border: 2px solid #14A76C;
   }
 
   .othersTitle {

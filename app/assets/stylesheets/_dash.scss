@@ -1,0 +1,328 @@
+
+.Pbanner {
+  width: 100%;
+  height: 8vh;
+  background-color: #14A78C;
+  color: #FFE400;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Rbanner {
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.reportIcons {
+   font-size: 100px;
+   align-self: center;
+   color: #FFE400;
+  }
+  .equelz {
+   font-size: 60px;
+  }
+
+.reportBox {
+  height: 90%;
+  width: 55%;
+  padding: 25px;
+  display:flex;
+  flex-direction: row;
+  background-color: #14A76C;
+  border-radius: 15px;
+  .reportFlashL {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  }
+  .reportFlashR {
+  height: 100%;
+  width: 55%;
+  }
+}
+.reportHeader {
+height: 30%;
+width: 100%;
+text-align: center;
+p {
+  font-size: 7.5em;
+  color: #FFE400;
+}
+}
+.reportText {
+height: 70%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin-top: 10px;
+p {
+  text-align: center;
+  font-size: 5em;
+  color: #FFE400;
+}
+}
+
+.dashCont {
+  height: 180vh;
+}
+
+
+
+.dash1of3 {
+  height: 70vh;
+  background-color: #14A78C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .d103upComing {
+    align-self: center;
+    margin-left: 40px;
+    color: #FFE400;
+    h1 {
+      font-size: 4em;
+    }
+  }
+  .d103mB {
+    align-self: center;
+    width: 95%;
+
+  }
+  .d103conts {
+    align-self: center;
+    height: 20%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #14A78C;
+    background-color: #FF652F;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .d103contsWho {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: #FFE400;
+  }
+  .d103contsWhen {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+  }
+  .d103contsWhere {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+  }
+  .d103contsWho2 {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.3;
+  }
+  .d103contsWhen2 {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.3;
+  }
+  .d103contsWhere2 {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.3;
+  }
+  .d103contsWho2:hover {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.5;
+  }
+  .d103contsWhen2:hover {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.5;
+  }
+  .d103contsWhere2:hover {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    background-color: #FFE400;
+    opacity: 0.5;
+  }
+  .d103reQ {
+    align-self: flex-end;
+    margin-right: 40px;
+    width: 20%;
+    padding: 3px;
+    text-align: center;
+    color: #14A78C;
+    background-color: #FFE400;
+    border-radius: 5px;
+  }
+}
+
+.dash2of3 {
+  height: 80vh;
+  background-color: #FFE400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .d203cont {
+  height: 95%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  .d203leftConts {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .d203LCtitle{
+    height: 20%;
+    align-self: center;
+    color: #14A78C;
+    h1 {
+      font-size: 4em;
+    }
+  }
+  .d203LCcurrent{
+    height: 45%;
+    width: 65%;
+    align-self: center;
+    #bulli li {
+      list-style-type: none;
+      font-size:20px;
+    }
+    .strike {
+      opacity: 0.4;
+    }
+
+  }
+  .d203LCedit{
+    height: 12%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 40%;
+    padding: 10px;
+    color: #FFE400;
+    background-color: #14A78C;
+    border-radius: 5px;
+  }
+
+
+  .d203rightConts {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .d203RCtitle {
+    height: 20%;
+    align-self: center;
+    color: #14A78C;
+    h1 {
+      font-size: 4em;
+    }
+  }
+  .d203RCprofile{
+    height: 65%;
+    width: 95%;
+    align-self: center;
+    text-align: center;
+    h4 {
+      font-size: 2em;
+      color: #FF652F;
+    }
+    p {
+      font-size: 1.5em;
+      color: #14A78C;
+    }
+
+  }
+  .d203RCedit{
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+h3 {
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    color: #FFE400;
+    background-color: #14A78C;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+i {
+  margin-right: 8px;
+}
+  }
+  }
+
+}
+
+.dash3of3 {
+  height: 30vh;
+  background-color: #14A78C;
+  .d303cont {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .d303reps {
+  height: 30%;
+  width: 33%;
+  text-align: center;
+  border-radius: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

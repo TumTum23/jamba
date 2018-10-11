@@ -11,7 +11,6 @@ class ArcsController < ApplicationController
       8 => { id: 8, name: "Fred Fredder", email: "bob@example7.com", type: "Interior Designer", rating: "★★" },
   }
 
-
   def show
     @arcs = ARCS
   end
@@ -19,7 +18,6 @@ class ArcsController < ApplicationController
   def new
     @arc = Arc.new
   end
-
 
 
   def index

@@ -21,7 +21,8 @@ background-color: black;
   margin-bottom: 3px;
   font-size: 20px;
   text-align: center;
-  background-color: #84D2F6;
+  color: #FFE400;
+  background-color: #14A78C;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top-right-radius: 6px;
@@ -35,7 +36,8 @@ background-color: black;
   margin-left: 6px;
   margin-bottom: 4px;
   font-size: 18px;
-  background-color: #59A5D8;
+  color: #FFE400;
+  background-color: #14A78C;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -45,7 +47,7 @@ background-color: black;
   display: flex;
   justify-content: space-around;
   margin-bottom: 6px;
-  background-color: #386FA4;
+  background-color: #14A76C;
   border-radius: 3px;
 }
 .card-rating {
@@ -54,24 +56,25 @@ background-color: black;
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  color: #84D2F6;
+  color: #FFE400;
 }
 
 .btnCard {
-  background-color: #84D2F6;
-  border: 2px solid #386FA4;
+  color: #FFE400;
+  background-color: #FF652F;
   border-radius: 4px;
   font-size: 16px;
   font-weight: bold;
 }
 
 .btnCard2 {
-  background-color: #84D2F6;
+  color: #FFE400;
+  background-color: #FF652F;
   border: 2px solid #386FA4;
   border-radius: 4px;
   font-size: 25px;
   font-weight: bold;
-  justify-self: center;
+  align-self: center;
 }
 
 // other card

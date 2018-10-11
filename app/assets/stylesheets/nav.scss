@@ -11,6 +11,7 @@
 
 
 .links {
+  padding: 2px;
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -20,25 +21,28 @@
 
 ul.links {
     list-style-type: none;
-    overflow:hidden;
-    background-color: #386FA4;
+    overflow: hidden;
+    background-color: #14A76C;
+
 }
 
 ul.links li {float: left;}
 
 ul.links li a {
+    color: #FFE400;
     display: inline-block;
-    color: #f2f2f2;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 20px;
    transiton:all .5s ease-in-out
 }
 
 ul.links li a:hover {
-  background-color: #59A5D8;
+  color: #272727;
+  background-color: #DCF952;
+  border-radius: 4px;
 }
 
 ul.links li.icon {display: none;}
