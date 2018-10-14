@@ -2,17 +2,24 @@
 <ul class="links" id="myLinks">
 
   <li><%= link_to "Home", root_path  %></li>
-  <li><%= link_to "Contact", arcs_path %></li>
 
   <% if current_user %>
-    <li><%= link_to "My Dashboard", dashboard_home_path %></li>
+    <li><%= link_to "My Dashboard", dashboard_cliDash_path %></li>
+
+  <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
+  <% elsif current_arc %>
+
+   <li><%= link_to "My Dashboard", dashboard_home_path %></li>
 
   <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
 
   <% else %>
 
+   <li><%= link_to 'Sign Up', pages_signUp_path %></li>
+   <li><%= link_to "Log In", pages_logIn_path %></li>
+<!--
   <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-  <li><%= link_to "Log In", new_user_session_path %></li>
+  <li><%= link_to "Log In", new_user_session_path %></li> -->
   <% end %>
   <li class="icon">
     <a href="#" onclick="myFfunction()">&#9776;</a>

@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
 
+  get 'pages/signUp'
+
+  get 'pages/logIn'
+
   get 'reports/show'
 
   get 'arcs/show'
@@ -12,6 +16,8 @@ Rails.application.routes.draw do
   get 'arcs/new'
 
   get 'dashboard/home'
+
+  get 'dashboard/cliDash'
 
   get 'devise/registrations/new'
 
