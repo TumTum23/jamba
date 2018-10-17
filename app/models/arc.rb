@@ -3,9 +3,9 @@ class Arc < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+  has_many :users, through: :bookings
   has_many :reviews
   has_many :ratings
   has_many :bookings
-  has_many :clients, through: :bookings
 
 end
