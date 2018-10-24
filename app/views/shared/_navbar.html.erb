@@ -1,7 +1,8 @@
+
 <nav>
 <ul class="links" id="myLinks">
 
-  <li><%= link_to "Home", root_path  %></li>
+  <li><%= link_to "Jamba", root_path  %></li>
 
   <% if current_user %>
     <li><%= link_to "My Dashboard", dashboard_cliDash_path %></li>
@@ -15,8 +16,12 @@
 
   <% else %>
 
-   <li><%= link_to 'Sign Up', pages_signUp_path %></li>
-   <li><%= link_to "Log In", pages_logIn_path %></li>
+   <li><%= link_to 'Get Started', pages_getStarted_path %></li>
+
+<!--
+    This not needed as pushed to get started page -->
+   <!-- <li><%= link_to 'Sign Up', pages_signUp_path %></li>
+   <li><%= link_to "Log In", pages_logIn_path %></li> -->
 <!--
   <li><%= link_to 'Sign Up', new_user_registration_path %></li>
   <li><%= link_to "Log In", new_user_session_path %></li> -->

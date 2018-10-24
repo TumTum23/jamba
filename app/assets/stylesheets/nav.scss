@@ -1,35 +1,29 @@
 /* globale */
-* {
-  margin:0;
-  padding:0;
-  -webkite-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -o-box-sizing:border-box;
-  box-sizing:border-box;
+
+
+.nav {
+  margin-top: 20px;
 }
-
-
-
 .links {
   padding: 2px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 35px;
 }
 
 
 ul.links {
     list-style-type: none;
     overflow: hidden;
-    background-color: #14A76C;
 
 }
 
 ul.links li {float: left;}
 
 ul.links li a {
-    color: #FFE400;
+    color: black;
     display: inline-block;
     text-align: center;
     padding: 20px 16px;
@@ -41,7 +35,6 @@ ul.links li a {
 
 ul.links li a:hover {
   color: #272727;
-  background-color: #DCF952;
   border-radius: 4px;
 }
 

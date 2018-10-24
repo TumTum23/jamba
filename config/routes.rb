@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'pages/logIn'
 
+  get 'pages/getStarted'
+
   get 'reports/show'
 
   get 'arcs/show'

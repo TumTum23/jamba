@@ -2,123 +2,92 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-// get rid of when use properly
-
-
-
-.homepageBox {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+* {
+  border: 1px solid red;
 }
 
-
-.titleBoxHP {
-  height: 40%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-items: center;
-}
-
-.welcHP {
- height: 20%;
- width: 40%;
- color: #14A76C;
- h1 {
-  font-size: 2.5em;
-  text-align: center;
- }
-}
-
-.jambaHP {
- height: 55%;
- width: 70%;
- color: #14A76C;
- text-align: center;
- display: flex;
- justify-content: flex-end;
- flex-direction: column;
- h1 {
-  font-size: 7em;
- }
-}
-
-
-
-.searchBoxHP {
-  height: 40%;
-  width: 60%;
-  align-self: center;
-}
-
-.searchTextHP {
-  text-align: center;
-}
-
-.whoBox {
-  width: 100vw;
+.homePageBox {
+  width: 100%;
   height: 45vh;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+
+}
+.HPTitle {
+  width: 80%;
+  font-size: 6.7em;
+  margin-bottom: 20px;
+}
+
+.HPDesc {
+  width: 60%;
+  font-size: 1.5em;
 }
 
 
-.whoTitle {
-  width: 100vw;
-  height: 20%;
+.homeSearchBox {
+  width: 100%;
+  height: 23vh;
+  background-color: white;
+  margin-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-}
-
-.whoText {
-  width: 70%;
-  height: 70%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #14A76C;
-  p {
-    font-size: 28px;
+  .homePageSearchTit {
+  width:40%;
+  margin-left: 15px;
   }
-}
-
-.whoWho {
-  h1 {
-    font-size: 35px;
-    color: #14A76C;
+  .homePageSearchCont {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .homePageSearchContWho {
+    height: 70%;
+    width: 23%;
+  }
+  .homePageSearchContWhere {
+    height: 70%;
+    width: 23%;
+  }
+  .homePageSearchContWhen {
+    height: 70%;
+    width: 23%;
+  }
+  .homePageSearchContButton {
+    height: 70%;
+    width: 20%;
   }
 
+
 }
 
-.redLine {
-  width: 40%;
-  height: 10%;
-  background-color: #14A76C;
-  border-radius: 4px;
+.homePageProfs {
+  width: 100%;
+  height: 95vh;
+  background-color: green;
 }
 
+.homePageFAQ {
+  width: 100%;
+  height: 75vh;
+  background-color: grey;
+}
 
+.homePageBYOB {
+  width: 100%;
+  height: 55vh;
+  background-color: blue;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.homePageFoot {
+  width: 100%;
+  height: 45vh;
+  background-color: yellow;
+}
 
 
 
